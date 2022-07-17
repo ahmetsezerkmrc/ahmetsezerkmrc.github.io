@@ -12,6 +12,8 @@
     }
     header {
         background-color: dimgrey;
+        position: relative;
+        z-index: 0;
         width: 100%;
         display: inline-block;
     }
@@ -35,10 +37,13 @@
     .menuitems{
         float: left;
         background-color: dimgray;
+        border-radius: 10px;
 
     }
     .menuitems li{
         display: inline-block;
+        width: 100%;
+        height: auto;
     }
     .menuitems li a {
         color: white;
@@ -54,7 +59,8 @@
         width: 80%;
         height: auto;
         float: right;
-        background-color: #851d1d;
+        background-color: #efecec;
+        border-radius: 10px;
     }
     .kutu {
         width: 100%;

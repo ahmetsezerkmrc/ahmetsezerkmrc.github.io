@@ -17,6 +17,7 @@
     }
     .menu {
         float: right;
+        background-color: dimgray;
     }
     .menu li {
         display: inline-block;
@@ -30,6 +31,30 @@
     }
     .menu li a:hover {
         background-color: grey;
+    }
+    .menuitems{
+        float: left;
+        background-color: dimgray;
+
+    }
+    .menuitems li{
+        display: inline-block;
+    }
+    .menuitems li a {
+        color: white;
+        font-size: 16px;
+        font-weight: 300;
+        padding: 12px 18px;
+        display: inline-block;
+    }
+    .menuitems li a:hover {
+        background-color: grey;
+    }
+    .pageicerik{
+        width: 80%;
+        height: auto;
+        float: right;
+        background-color: #851d1d;
     }
     .kutu {
         width: 100%;
@@ -80,11 +105,22 @@
         float: left;
         margin: 0px 15px 15px 0;
         padding: 5px;
-        background: #f7f5ed;
-        border: 1px solid #cccabc;
-        border-radius: 2px;
+        background: #efe6e6;
+        border: 1px solid #ffffff;
+        border-radius: 20px;
         width: calc(100% - 15px);
         max-width: 1180px;        
+    }
+    .pageitem{
+        width: 100%;
+        height: auto;
+        background-color: #1d4657;
+    }
+    .menuitem{
+        width: 20%;
+        height: auto;
+        float: left;
+        background-color: grey;
     }
     footer {
         width: 100%;
